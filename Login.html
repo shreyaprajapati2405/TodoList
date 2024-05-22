@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<style>
+  .container {
+    border: 1px solid black;
+    border-radius:10px;
+    width: max-content;
+    background-color:#BDBFBA;  ;}
+.h4{
+text-align: center;
+margin-top: 4%;
+}
+.gender-options {
+    display: flex; /* Arrange radio buttons and label in one line */
+    justify-content: space-between; /* Distribute evenly within container */
+  }
+  body{
+    background-image:url( newbg-Photoroom.jpg) ;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #00008B;
+
+  }
+  .submit-button{
+    text-align: center;
+  }
+</style>
+
+
+<body>
+
+  <div class="position-absolute top-50 start-50 translate-middle container">
+    <form>
+      <p class="h4">Login</p>    
+      <div class="row">
+        <div class="col">
+          <lable for="Email">Email</lable>
+          <input type="email" class="form-control">
+        </div>   
+        <div class="row">
+        <div class="col"> 
+        <label for="password">Password</label>
+        <input type="password" class="form-control">
+      </div>
+      </div>
+    </div>
+<br>
+  
+
+    <div class="submit-button"> 
+      <button class="btn btn-primary" type="submit" style="text-decoration: none;">Submit</button>
+    </div> 
+      <p style="text-align: center;"><strong>Forgot password ?</strong><a href="Forgotpassword.html" style="text-decoration: none;"><strong>Login</strong></a></p>  
+    </form>
+  </div>
+</div>
+
+</body>
+
+</html>
